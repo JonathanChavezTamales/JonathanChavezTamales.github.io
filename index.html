@@ -3,52 +3,82 @@
   <head>
     <meta charset="utf-8">
     <title>I am Jonathan Chávez</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Sarabun" rel="stylesheet">
   </head>
   <body>
 
     <header>
-      <div class="">
-        <h1>Jonathan Chávez</h1>
-        <h2>Software Engineer</h2>
-        <figure>
-          <img src="static/img/jonathan-main.jpeg" width="200px" alt="jonathan sleeping at a hackathon">
-        </figure>
+      <div>
+        <div class="separator">
+        </div>
         <nav>
           <ul>
-            <li><a href="">About me</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Experience</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Contact me</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact me</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
 <!-- About me -->
-    <section>
-      <h2>About me</h2>
-
+    <section id="about">
+      <div class="about-titles">
+        <h1>I am Jonathan Chávez</h1>
+        <h3><small><span id="software">Software_</span><span id="engineer">_Engineer</span></small></h3>
+      </div>
     </section>
 
 <!-- Skills -->
-    <section>
+    <section id="skills">
       <h2>Skills</h2>
+      <div>
+        <ul>
+          <li>Python</li>
+          <li>Javascript</li>
+          <li>C++</li>
+          <li>SQL</li>
+        </ul>
+      </div>
 
     </section>
+    <hr>
 
 <!-- Experience -->
-    <section>
+    <section id="experience">
       <h2>Experience</h2>
     </section>
+    <hr>
 
 <!-- Projects -->
-    <section>
+    <section id="projects">
       <h2>Side projects</h2>
+      <article>
+        <h3>Cardd</h3>
+        <h5><small>HTML, CSS, Javascript, Django</small></h5>
+        <p>Card es una aplicación web que te permite bla bla bla</p>
+      </article>
+      <article>
+        <h3>Vision</h3>
+        <p>Vision is a Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </article>
+      <article>
+
+      </article>
+      <article>
+
+      </article>
+      <article>
+
+      </article>
     </section>
+    <hr>
 
 <!-- Contact me -->
-    <section>
+    <section id="contact">
       <h2>Contact me</h2>
       <form action="index.html" method="post">
         <label for="email">Email:</label>
