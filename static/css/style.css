@@ -26,7 +26,8 @@ nav a{
 }
 
 nav a:hover{
-  background: #35423f;
+  background: #000;
+  color: white;
 }
 
 nav ul {
@@ -40,7 +41,7 @@ nav li{
 
 .separator{
   height: 20px;
-  background: rgb(13, 43, 123);
+  background: #000;
 }
 
 #about h1, #about h3 {
@@ -52,12 +53,12 @@ nav li{
 }
 
 section{
-  margin: 30px;
+  margin: 5vw;
 }
 
 
 nav{
-  background-color: #40514e;
+  background-color: #fff;
 }
 
 a {
@@ -65,19 +66,17 @@ a {
 }
 
 header a{
-  color: white;
+  color: black;
 }
 
+
 #about{
-  background-image: url('../img/jonathan-main.jpeg');
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
-  height: 300px;
-  background-color: rgb(13, 43, 123);
+  text-align: center;
+  height: 30%;
+  background-color: #000;
   color: white;
   margin: 0;
-  box-shadow: 5px 3px 15px black;
+  box-shadow: 0px 10px 20px 3px #777777;
 }
 
 header ul{
@@ -96,4 +95,34 @@ hr{
 #engineer{
   background: #000;
   color: #fff;
+}
+
+.social-media-container i{
+  padding: 2% 5%;
+  font-size: 2em;
+  border: solid black 2px;
+}
+
+.social-media-container i:hover{
+  border: solid #333 2px;
+}
+
+a:visited, a:active, a {
+  color: white;
+}
+
+a:hover{
+  color: #dedede;
+}
+
+
+/* OTHER */
+.blink_me {
+  animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
