@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="description"" content="Jonathan Chávez is a software engineer.">
     <title>I am Jonathan Chávez</title>
     <link rel="stylesheet" href="static/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Sarabun" rel="stylesheet">
@@ -11,7 +12,7 @@
 
 
 <!-- About me -->
-    <section id="about">
+    <header id="about">
       <div class="about-titles">
         <h1>I am Jonathan Chávez<span class="blink_me"> |</span></h1>
         <h3>
@@ -26,7 +27,7 @@
           <a href="https://www.linkedin.com/in/jonathan-chavez-tabares/"><i class="fab fa-linkedin-in"></i></a>
       </div>
       </div>
-    </section>
+    </header>
 
 <!-- Skills -->
     <section id="skills">
@@ -71,17 +72,20 @@
 
       </article>
     </section>
-    <hr>
 
 <!-- Contact me -->
     <section id="contact">
       <h2>Contact me</h2>
       <form action="index.html" method="post">
-        <label for="email">Email:</label>
-        <input id="email" type="email" name="email" placeholder="example@mail.com" autocomplete="on">
-        <label for="message">Your message:</label>
-        <input id="message" type="textarea" name="message" placeholder="Leave your message here.">
-        <input type="submit">
+        <fieldset>
+          <label for="email">Email:</label>
+          <input class="contact-input" id="email" type="email" name="email" placeholder="example@mail.com" autocomplete="on">
+        </fieldset>
+        <fieldset>
+          <label for="message">Your message:</label>
+          <textarea class="contact-input" id="message" maxlength="255" name="message" placeholder="Leave your message here."></textarea>
+        </fieldset>
+        <input type="submit" class="sumbit">
       </form>
     </section>
 

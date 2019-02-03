@@ -53,7 +53,7 @@ nav li{
 }
 
 section{
-  margin: 5vw;
+  padding: 3vw;
 }
 
 
@@ -114,6 +114,61 @@ a:visited, a:active, a {
 a:hover{
   color: #dedede;
 }
+
+
+
+#contact {
+  background: #222;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contact-input{
+  background: #222;
+  border: 0px;
+  border-bottom: 1px #333 solid;
+  font-size: 1em;
+  width: 100%;
+}
+
+#message{
+  cols: 80;
+  height: 80px;
+  color: white;
+}
+#contact form{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+fieldset{
+  border: 0;
+  display: inline;
+  width: 40%;
+}
+
+
+
+fieldset label{
+  display: block;
+}
+
+#contact .submit{
+  display: block;
+  background: #333;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 5px 5px 2px #111;
+  cursor: pointer;
+  color: white;
+  font-size: 1em;
+  padding: 9px;
+}
+
 
 
 /* OTHER */
