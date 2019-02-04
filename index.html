@@ -5,13 +5,23 @@
     <meta name="description"" content="Jonathan Chávez is a software engineer.">
     <title>I am Jonathan Chávez</title>
     <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Sarabun" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
   <body>
 
+    <nav>
+      <ul>
+        <a href="#skills"><li>Skills</li></a>
+        <a href="#experience"><li>Experience</li></a>
+        <a href="#projects"><li>Projects</li></a>
+        <a href="#contact"><li>Get in touch</li></a>
+      </ul>
+    </nav>
 
 <!-- About me -->
+    <div class="ghost"></div>
     <header id="about">
       <div class="about-titles">
         <h1>I am Jonathan Chávez<span class="blink_me"> |</span></h1>
@@ -31,18 +41,45 @@
 
 <!-- Skills -->
     <section id="skills">
-      <h2>Skills</h2>
-      <div>
-        <ul>
-          <li>Python</li>
-          <li>Javascript</li>
-          <li>C++</li>
-          <li>SQL</li>
-        </ul>
+      <img src="https://www.piet-mondrian.org/images/paintings/broadway-boogie-woogie.jpg" alt="image">
+      <div id="skill-container">
+        <h3>Programming languages</h3>
+        <div class="icons">
+          <i class="devicon-python-plain colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
+          <i class="devicon-cplusplus-plain colored"></i>
+        </div>
+        <div class="skill-description">
+          <span><small>Python</small></span>
+          <span><small>Javscript</small></span>
+          <span><small>C++</small></span>
+        </div>
+        <h3>Databases</h3>
+        <div class="icons">
+            <i class="devicon-mysql-plain colored"></i>
+            <i class="devicon-postgresql-plain colored"></i>
+            <i class="devicon-mongodb-plain colored"></i>
+        </div>
+        <div class="skill-description">
+            <span><small>MySQL</small></span>
+            <span><small>Postgresql</small></span>
+            <span><small>MongoDB</small></span>
+        </div>
+        <h3>Tools</h3>
+        <div class="icons">
+            <i class="devicon-git-plain colored"></i>
+            <i class="devicon-docker-plain colored"></i>
+            <i class="devicon-amazonwebservices-plain colored"></i>
+            <i class="devicon-heroku-plain colored"></i>
+          </div>
+        <div class="skill-description">
+            <span><small>Git</small></span>
+            <span><small>Docker</small></span>
+            <span><small>AWS</small></span>
+            <span><small>Heroku</small></span>
+        </div>
       </div>
-
     </section>
-    <hr>
 
 <!-- Experience -->
     <section id="experience">
@@ -52,7 +89,7 @@
 
 <!-- Projects -->
     <section id="projects">
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
       <article>
         <h3>Cardd</h3>
         <h5><small>HTML, CSS, Javascript, Django</small></h5>
@@ -85,7 +122,7 @@
           <label for="message">Your message:</label>
           <textarea class="contact-input" id="message" maxlength="255" name="message" placeholder="Leave your message here."></textarea>
         </fieldset>
-        <input type="submit" class="sumbit">
+        <input type="submit" class="submit">
       </form>
     </section>
 
